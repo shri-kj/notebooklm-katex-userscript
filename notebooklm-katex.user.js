@@ -4,7 +4,7 @@
 // @namespace    https://github.com/shri-kj/notebooklm-katex-userscript
 // @version      2.1.1
 // @description  Minimal, stable KaTeX auto-render for NotebookLM with safe loading & no-undef fixes. Requires Tampermonkey.
-// @author       ergs0204 + Zolangui + you
+// @author       ergs0204 + Zolangui + shri
 // @match        https://notebooklm.google.com/*
 // @grant        GM_addStyle
 // @grant        GM_getResourceText
