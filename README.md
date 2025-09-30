@@ -15,15 +15,14 @@ It’s designed to be minimal, stable, and robust—just math rendering, no extr
 
 ## 📦 Requirements
 - **Tampermonkey** (or a compatible userscript manager).
-  - [Chrome / Edge](https://www.tampermonkey.net/)
+  - [Chromium](https://www.tampermonkey.net/)
   - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
 
 ---
 
 ## 🚀 Installation
 1. Install Tampermonkey.
-2. Click this link to install/update the script:  
-   👉 [Install Userscript](https://raw.githubusercontent.com/<your-username>/notebooklm-katex-userscript/main/src/notebooklm-katex.user.js)
+2. Click this link to install/update the script: [Install Userscript](https://raw.githubusercontent.com/<your-username>/notebooklm-katex-userscript/main/src/notebooklm-katex.user.js)
 3. Open [NotebookLM](https://notebooklm.google.com) — math should render automatically.
 
 ---
@@ -44,4 +43,4 @@ It’s designed to be minimal, stable, and robust—just math rendering, no extr
 ---
 
 ## 📄 License
-MIT © [Your Name]
+MIT © [Shri]
