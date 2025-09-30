@@ -1,6 +1,3 @@
-# notebooklm-katex-userscript
-Minimal, robust userscript that renders LaTeX in Google NotebookLM using KaTeX. Utilizes Tampermonkey.
-
 # Render LaTeX in NotebookLM (Userscript)
 
 This is a **Tampermonkey userscript** that automatically renders LaTeX math inside [Google NotebookLM](https://notebooklm.google.com) using **KaTeX**.  
