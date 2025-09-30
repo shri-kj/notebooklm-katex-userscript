@@ -1,12 +1,12 @@
 # Render LaTeX in NotebookLM (Userscript)
 
-This is a **Tampermonkey userscript** that automatically renders LaTeX math inside [Google NotebookLM](https://notebooklm.google.com) using **KaTeX**.  
-It’s designed to be minimal, stable, and robust—just math rendering, no extra clutter.
+A **Tampermonkey userscript** that automatically renders LaTeX math inside [Google NotebookLM](https://notebooklm.google.com) using **KaTeX**.  
+Minimal, stable, and robust — just math rendering, nothing extra.
 
 ---
 
 ## ✨ Features
-- Renders inline math (`$...$`) and display math (`$$...$$`, `$begin:math:display$...$end:math:display$`, `$begin:math:text$...$end:math:text$`).
+- Renders inline math (`$...$`) and display math (`$$...$$`, `$begin:math:text$...$end:math:text$`, `$begin:math:display$...$end:math:display$`).
 - Ignores active input fields and editors while you type (no flickering).
 - Cleans up simple `$$...$$` into inline `$...$` when appropriate.
 - Uses KaTeX for **fast and reliable math rendering**.
@@ -14,33 +14,16 @@ It’s designed to be minimal, stable, and robust—just math rendering, no extr
 ---
 
 ## 📦 Requirements
-- **Tampermonkey** (or a compatible userscript manager).
-  - [Chromium](https://www.tampermonkey.net/)
-  - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
+You need a userscript manager such as **Tampermonkey**:
+
+- [Tampermonkey for Chrome / Edge](https://www.tampermonkey.net/)
+- [Tampermonkey for Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
 
 ---
 
 ## 🚀 Installation
-1. Install Tampermonkey.
-2. Click this link to install/update the script: [Install Userscript](https://raw.githubusercontent.com/<your-username>/notebooklm-katex-userscript/main/src/notebooklm-katex.user.js)
-3. Open [NotebookLM](https://notebooklm.google.com) — math should render automatically.
+1. Install **Tampermonkey** in your browser.
+2. Add the userscript by clicking the raw link below:
 
----
-
-## 🛠 How It Works
-- Injects **KaTeX CSS & JS** via CDN.
-- Watches the DOM for changes (MutationObserver).
-- Runs KaTeX’s `renderMathInElement` on NotebookLM content.
-- Avoids re-rendering while you’re typing.
-
----
-
-## 🔧 Troubleshooting
-- If math doesn’t appear, reload the page.
-- Make sure the userscript is **enabled** in Tampermonkey.
-- Conflicts may occur with other math renderers.
-
----
-
-## 📄 License
-MIT © [Shri]
+   ```text
+   https://raw.githubusercontent.com/shri-kj/notebooklm-katex-userscript/main/notebooklm-katex.user.js
