@@ -23,7 +23,7 @@ You need a userscript manager such as **Tampermonkey**:
 
 ## 🚀 Installation
 1. Install **Tampermonkey** in your browser.
-2. Add the userscript by clicking the raw link below:
+2. Add the userscript by visiting the raw URL [file](https://raw.githubusercontent.com//notebooklm-katex-userscript/main/notebooklm-katex.user.js)
 
-   ```text
-   https://raw.githubusercontent.com/shri-kj/notebooklm-katex-userscript/main/notebooklm-katex.user.js
+Tampermonkey will prompt you to install/update the script.
+3. Open [NotebookLM](https://notebooklm.google.com) — math should render automatically.
